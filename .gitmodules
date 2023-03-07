@@ -6,4 +6,4 @@
 	url = https://github.com/faasm/python.git
 [submodule "clients/cpp"]
 	path = clients/cpp
-	url = https://github.com/faasm/cpp.git
+	url = https://github.com/abhisheksharma1395/faasm-cpp.git
