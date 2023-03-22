@@ -80,6 +80,10 @@ services:
       - WASM_VM=${WASM_VM:-wavm}
       - SGX_AESM_ADDR=1
       - AZ_ATTESTATION_PROVIDER_URL=https://faasmattprov.eus2.attest.azure.net
+    deploy:
+      resources:
+        limits:
+          cpus: '1.0'
 
   # Load balancer for local cluster
   nginx:
