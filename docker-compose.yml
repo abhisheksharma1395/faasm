@@ -83,7 +83,7 @@ services:
     deploy:
       resources:
         limits:
-          cpus: '8.0'
+          cpus: '16.0'
 
   # Load balancer for local cluster
   nginx:
